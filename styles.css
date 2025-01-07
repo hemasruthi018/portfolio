@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hema Sruthi Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> <!-- Link the CSS file -->
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="logo-container">
+                <h1 id="logo">Hema Sruthi</h1>
+            </div>
+            <nav id="mainnav">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="primary centered" id="hero">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi, I'm Hema Sruthi. A passionate developer and designer with a keen eye for detail.</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about-contact" class="secondary">
+        <div class="wrapper">
+            <div class="profile-photo">
+                <img src="https://picsum.photos/300/300" alt="Hema Sruthi">
+            </div>
+            <article>
+                <h2>About Me</h2>
+                <p>
+                    I specialize in creating user-friendly and visually appealing web applications. 
+                    With a strong background in design and coding, I aim to deliver solutions that 
+                    meet user needs while maintaining an aesthetic edge.
+                </p>
+                <p>
+                    I’m driven by a love for learning and continuously improving my craft, whether 
+                    it’s exploring the latest trends in technology or collaborating with teams to bring ideas to life.
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work">
+        <h2 class="centered">My Projects</h2>
+        <div class="projects">
+            <article>
+                <img src="https://picsum.photos/400/300?random=1" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>A web application designed for efficient task management. Built with React and Node.js.</p>
+            </article>
+            <article>
+                <img src="https://picsum.photos/400/300?random=2" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>A responsive e-commerce website with a sleek design and smooth user experience.</p>
+            </article>
+            <article>
+                <img src="https://picsum.photos/400/300?random=3" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>An AI-powered chatbot for real-time customer support, built with Python and Flask.</p>
+            </article>
+            <article>
+                <img src="https://picsum.photos/400/300?random=4" alt="Project 4">
+                <h3>Project 4</h3>
+                <p>A portfolio website showcasing my work and skills, built with HTML, CSS, and JavaScript.</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="primary">
+        <h2 class="centered">Get in Touch</h2>
+        <div class="centered">
+            <p>Email: <a href="mailto:sruthivenkateswara@gmail.com">sruthivenkateswara@gmail.com</a></p>
+            <p>Phone: +91 98765 43210</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Hema Sruthi. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
